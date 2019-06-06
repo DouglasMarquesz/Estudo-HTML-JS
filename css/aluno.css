@@ -1,0 +1,83 @@
+#navbar{
+	background-color: #000; /*Muda a cor da Nav Bar*/
+	width: 100%;
+	height: 100px;
+}
+
+li{
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+	margin: 10px;
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+}
+
+.img{ /* Tamnanho e posição da logo*/
+	width: 50px;
+	height: 70px;
+	float: left;
+	padding-top: 20px;
+}
+
+.lista{
+	text-align: right;
+	display: inline;
+	letter-spacing: 2px;
+	font-family: Gloria ;
+	
+}
+
+.inline{
+	padding-top: 40px;
+	padding-right: 40px;
+}
+
+@font-face { /* Tag para adicionar uma fonte externa*/
+     font-family: Gloria;
+     src: url('../font/gloria.ttf');
+     font-weight: normal;
+     font-height: normal;
+
+}
+
+@font-face{
+	font-family: IndieFlower;
+	src: url('../font/IndieFlower.ttf');
+}
+
+.lista:hover{ /* O que acontece quando passa o mouse por cima dos nomes da navbar*/
+	color: red;
+}
+
+footer{
+	background-color: #000;
+	text-align: center;
+	font-family: Gloria ;
+	color: white;
+	font-size: 20px;
+	height: 100px;
+	padding-top: 40px;
+}
+
+/*Quando criar uma nova página, apagar esta parte do CSS*/
+.font{
+	font-family: IndieFlower; /*Configura a fonte de todo o conteudo do site*/
+	font-size: 17px;
+}
+
+.aviso{
+	text-align: center;
+	height: 250px;
+}
+
+.red{
+	color: red;
+}
+/*Apagar até aqui*/
+.button{
+	color: #fff;
+}
